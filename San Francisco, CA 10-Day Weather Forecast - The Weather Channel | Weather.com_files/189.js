@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[189],{1117:function(e,t,n){var a=n(266);function o(e){return a.createElement("svg",e,[a.createElement("title",{key:0},"Arrow Down"),a.createElement("path",{d:"M12 16.086l7.293-7.293a1 1 0 1 1 1.414 1.414l-8 8a1 1 0 0 1-1.414 0l-8-8a1 1 0 1 1 1.414-1.414L12 16.086z",key:1})])}o.defaultProps={viewBox:"0 0 24 24"},e.exports=o,o.default=o}}]);
-//# sourceMappingURL=189.Icon253.48e9298234b0e0886848.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[224],{1149:function(e,t,n){var o=n(266);function r(e){return o.createElement("svg",e,[o.createElement("title",{key:0},"Arrow down"),o.createElement("path",{d:"M23.765 5.167h-23.53l11.75 13.666 11.779-13.666z",key:1})])}r.defaultProps={viewBox:"0 0 24 24"},e.exports=r,r.default=r}}]);
-//# sourceMappingURL=224.Icon285.c1ad4bdcb199696d02c5.js.map

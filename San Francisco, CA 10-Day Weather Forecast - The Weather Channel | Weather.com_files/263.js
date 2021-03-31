@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[263],{1183:function(e,t,r){var n=r(266);function o(e){return n.createElement("svg",e,[n.createElement("title",{key:0},"Partly Cloudy Night"),n.createElement("use",{xlinkHref:"#svg-symbol-moon",transform:"matrix(1.55 0 0 1.55 -53 28)",mask:"url(#partly-cloudy-night-mask)",key:1}),n.createElement("use",{xlinkHref:"#svg-symbol-cloud",transform:"matrix(.85 0 0 .82 26 2)",key:2})])}o.defaultProps={viewBox:"0 0 200 200"},e.exports=o,o.default=o}}]);
-//# sourceMappingURL=263.Icon320.ca6b63a7ca342634cff9.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[324],{935:function(e,t,r){var n=r(266);function a(e){return n.createElement("svg",e,[n.createElement("title",{key:0},"Severe Breaking News"),n.createElement("circle",{fill:"currentColor",transform:"matrix(-1 0 0 1 24 0)",cx:"12",cy:"12",r:"12",key:1}),n.createElement("path",{fill:"#FFF",d:"M12 19a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-.75-5h1.5S14 7.77 14 7a2 2 0 10-4 0c0 1.105 1.25 7 1.25 7z",key:2})])}a.defaultProps={viewBox:"0 0 24 24"},e.exports=a,a.default=a}}]);
-//# sourceMappingURL=324.Icon71.4229f3140be3e71c378f.js.map
