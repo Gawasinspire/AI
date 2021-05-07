@@ -1,0 +1,33 @@
+y_pred = model.predict(x_val)
+y_test_list = list(y_val['Survived'])
+total = len(y_test_list)
+correct = 0
+val = 0
+result = []
+count = np.arange(0, 1, 0.01)
+
+for n in count:
+    for i in range(total):
+        if(y_pred[i][0]<n):
+            val=0
+        else:
+            val=1
+
+        if(val==y_test_list[i]):
+            correct+=1
+          
+    result.append(correct/total)
+    correct=0
+
+print(f"Max value: {result[result.index(max(result))]:.5f} at {count[result.index(max(result))]}")
+Y_predict = model.predict(X_test_sc)
+pred=[]
+
+for i in range(len(Y_predict)):
+    if Y_predict[i] >= 0.5:
+        pred.append(1)
+    else:
+        pred.append(0)
+
+output = pd.DataFrame({'PassengerId': titanic_test['PassengerId'], 'Survived': pred})
+output.to_csv('submission.csv', index=False)
