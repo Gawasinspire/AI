@@ -35,5 +35,9 @@ Rules 3 and 4 are instances of the design philosophy KISS. Rule 5 was previously
 
 _To remember_: 1. Measure 2.Use simple Algorithms that solves problem 3. Choose right data structure. "MSD"
 
+Measuring Time:
+
 #### Falsehoods programmers believe about time
 read this [a link](https://github.com/Gawasinspire/AI/blob/main/basics/optimizing_code_python/falsehood.md)
+
+python has time module and timeit functions.
