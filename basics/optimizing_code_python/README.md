@@ -33,4 +33,6 @@ This modules gives some pythonic code optimization tips and tricks.
 Pike's rules 1 and 2 restate Tony Hoare's famous maxim "Premature optimization is the root of all evil." Ken Thompson rephrased Pike's rules 3 and 4 as "When in doubt, use brute force.".
 Rules 3 and 4 are instances of the design philosophy KISS. Rule 5 was previously stated by Fred Brooks in The Mythical Man-Month. Rule 5 is often shortened to "write stupid code that uses smart objects". 
 
-_To remember_: 1. Measure 2.Use simple Algorithms that solves problem 3. Choose right data structure. "MSD" 
+_To remember_: 1. Measure 2.Use simple Algorithms that solves problem 3. Choose right data structure. "MSD"
+
+<script src="https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca.js"></script>` 
