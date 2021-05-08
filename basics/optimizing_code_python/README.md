@@ -35,4 +35,4 @@ Rules 3 and 4 are instances of the design philosophy KISS. Rule 5 was previously
 
 _To remember_: 1. Measure 2.Use simple Algorithms that solves problem 3. Choose right data structure. "MSD"
 
-<script src="https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca.js"></script>` 
+<script src="https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca.js"></script>
