@@ -41,3 +41,7 @@ Measuring Time:
 read this [a link](https://github.com/Gawasinspire/AI/blob/main/basics/optimizing_code_python/falsehood.md)
 
 python has time module and timeit functions.
+
+
+CPU profiling:
+	cProfile
