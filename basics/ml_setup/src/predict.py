@@ -11,7 +11,7 @@ from . import dispatcher
 
 def predict(test_data_path, model_type, model_path):
     df = pd.read_csv(test_data_path)
-    test_idx = df["id"].values
+    test_idx = df["PassengerId"].values
     predictions = None
 
     for FOLD in range(5):
@@ -35,13 +35,14 @@ def predict(test_data_path, model_type, model_path):
     
     predictions /= 5
 
-    sub = pd.DataFrame(np.column_stack((test_idx, predictions)), columns=["id", "target"])
+    sub = pd.DataFrame(np.column_stack((test_idx, predictions)), columns=["PassengerId", "target"])
     return sub
     
 
 if __name__ == "__main__":
-    submission = predict(test_data_path="input/test_cat.csv", 
+    submission = predict(test_data_path="input/test.csv", 
                          model_type="randomforest", 
                          model_path="models/")
-    submission.loc[:, "id"] = submission.loc[:, "id"].astype(int)
+    submission.loc[:, "PassengerId"] = submission.loc[:, "id"].astype(int)
     submission.to_csv(f"models/rf_submission.csv", index=False)
+

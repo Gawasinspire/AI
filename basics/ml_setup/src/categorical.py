@@ -87,9 +87,9 @@ class CategoricalFeatures:
 if __name__ == "__main__":
     import pandas as pd
     from sklearn import linear_model
-    df = pd.read_csv("../input/train_cat.csv")
-    df_test = pd.read_csv("../input/test_cat.csv")
-    sample = pd.read_csv("../input/sample_submission.csv")
+    df = pd.read_csv("../input/train.csv")
+    df_test = pd.read_csv("../input/test.csv")
+    sample = pd.read_csv("../input/gender_submission.csv")
 
     train_len = len(df)
 
